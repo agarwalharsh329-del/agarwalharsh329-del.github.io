@@ -16,7 +16,7 @@ document.addEventListener("click", function (e) {
     if (currentPage < pages.length - 1) {
       currentPage++;
     } else {
-      currentPage = 0;
+      currentPage = 0; // from last chapter, go back to first
     }
     showPage(currentPage);
     return;
