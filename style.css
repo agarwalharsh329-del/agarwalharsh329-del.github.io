@@ -104,6 +104,18 @@ button:hover {
   line-height: 1.8;
 }
 
+.music-btn {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  z-index: 999;
+  background: #222;
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
 @media (max-width: 768px) {
   .card {
     padding: 25px;
@@ -128,11 +140,4 @@ button:hover {
     opacity: 1;
     transform: translateY(0);
   }
-}
-
-.music-btn {
-  position: fixed;
-  top: 15px;
-  right: 15px;
-  z-index: 999;
 }
